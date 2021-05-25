@@ -1,0 +1,12 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# ipynb checkpoints
+.ipynb_checkpoints
+
+# logs
+log.*
+*.err
+*.out
