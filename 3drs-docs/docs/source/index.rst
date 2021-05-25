@@ -1,6 +1,4 @@
 
-.. image:: /_static/logo.png
-
 3dRS DOCUMENTATION
 -------------------
 
