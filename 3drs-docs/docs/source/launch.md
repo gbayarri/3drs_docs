@@ -4,13 +4,13 @@ Go to the **[Launch](https://mmb.irbbarcelona.org/3dRS/launch)** page of the web
 
 ## Launch from PDB
 
-![Launch from PDB](_static/launch/launch01.png)
+![](_static/launch/launch01.png)
 
 In this tab, users simply must insert one or more PDB code(s) from the **Protein Data Bank** and, once selected, click the **Submit button**. The application will automatically download the structure(s) from the **Protein Data Bank** and then the application will redirect to the new project.
 
 ## Upload your own structure
 
-![Upload your own structure](_static/launch/launch02.png)
+![](_static/launch/launch02.png)
 
 Custom structures can be uploaded from this tab just **clicking** the **Select button** or **dragging** them on the area below the submenu. Once the selection of files is ready, just clicking the **Upload** button the files will be processed by the application and then it will redirect to the new project.
 
