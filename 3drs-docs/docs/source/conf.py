@@ -52,9 +52,9 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 
 # -- Integrate markdown ---------------------------------------------------
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
+#source_parsers = {
+#   '.md': 'recommonmark.parser.CommonMarkParser',
+#}
 
 source_suffix = ['.rst', '.md']
 
@@ -125,7 +125,7 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 def setup(app):
-    app.add_css_file('theme_overrides.css')
+    app.add_stylesheet('theme_overrides.css')
     app.add_js_file('theme_overrides.js')
 
 
