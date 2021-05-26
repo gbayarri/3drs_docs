@@ -119,7 +119,7 @@ Note that this button **only appears in case more than one structure** has been 
 
 ![](_static/edit/edit10.png)
 
-Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go back to the [Mouse click actions section](#mouse-click-actions).
+Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go back to the **[Mouse click actions section](#mouse-click-actions)**.
 
 **Measurements** with size and color **by default**:
 
@@ -167,7 +167,7 @@ The **Navigation mode** will be enabled until users **click the button again**.
 
 ![](_static/edit/edit12.png)
 
-Link to this same **[Read the Docs](https://3drs-documentation.readthedocs.io/en/latest)**.
+Link to this same [Read the Docs](https://3drs-documentation.readthedocs.io/en/latest).
 
 ### Project settings
 
@@ -324,13 +324,13 @@ If RNA/DNA an **additional base representation** is added: simplified display of
 
 ##### Hyperball
 
-A derivate of the [ball+stick](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
+A derivate of the **[ball+stick](#ball-and-stick)** representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
 
 ![](_static/edit/edit23d.png)
 
 ##### Licorice
 
-A variant of the [ball+stick](#ball-and-stick) representation where balls and sticks have the same radius.
+A variant of the **[ball+stick](#ball-and-stick)** representation where balls and sticks have the same radius.
 
 ![](_static/edit/edit23e.png)
 
@@ -372,7 +372,7 @@ A flat, unshaded line is displayed along the main backbone trace.
 
 ##### Tube
 
-Essentially like [cartoon](#cartoon) but with the aspectRatio fixed at a value of 1.0.
+Essentially like **[cartoon](#cartoon)** but with the aspectRatio fixed at a value of 1.0.
 
 ![](_static/edit/edit23l.png)
 
@@ -517,20 +517,20 @@ Note that if the current representation is the **Default** one, this panel will 
 
 When a **new representation** is created, all the items in the stage will be selected by default with a **Line** representation and **Secondary structure** color scheme. The meaning of this is to easily glimpse **all the molecules** contained in the representation. Once the **first molecule** (one of Sequence, Heteroatoms, Ions or Waters) is selected, this one will be the only one selected.
 
-The Selections panel is divided into ten parts:
+The **Selections** panel is divided into ten parts:
 
 ![](_static/edit/edit28.png)
 
-* [Open / close button](#open-close-button)
-* [Structures](#structures)
-* [Custom selection](#custom-selection)
-* [Models](#models)
-* [Chains](#chains)
-* [Sequence](#sequence)
-* [Heteroatoms](#heteroatoms)
-* [Ions](#ions)
-* [Waters](#waters)
-* [Trajectories](#trajectories)
+* **[Open / close button](#open-close-button)**
+* **[Structures](#structures)**
+* **[Custom selection](#custom-selection)**
+* **[Models](#models)**
+* **[Chains](#chains)**
+* **[Sequence](#sequence)**
+* **[Heteroatoms](#heteroatoms)**
+* **[Ions](#ions)**
+* **[Waters](#waters)**
+* **[Trajectories](#trajectories)**
 
 ### Open / close button
 
@@ -560,48 +560,98 @@ If there is only a **single structure**, this dropdown menu will be disabled:
 
 Below the dropdown menu there are a couple of buttons:
 
-Center structure: centers the stage view in the currently selected structure. Note that if there is only a portion of the structure selected, the view will center around this portion.
-Custom selection / Manual selection: as explained later on, advanced users can make custom selections using NGL Viewer selection language. When custom selection is clicked, only this panel will be shown in the molecules part of the Structures panel. For coming back to the manual selection just click the same button again
+##### Center structure
+
+![](_static/edit/edit33.png)
+
+Centers the **stage** view in the currently **selected structure**. Note that if there is only a portion of the structure selected, the view will center around **this portion**.
+
+##### Custom selection / Manual selection
+
+![](_static/edit/edit34.png)
+
+As explained **[later on](#custom-selection)**, advanced users can make custom selections using [NGL viewer Selection Language](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). When custom selection is clicked, **only this panel will be shown** in the molecules part of the **Structures panel**. For coming back to the **manual selection** just click the same button again:
+
+![](_static/edit/edit35.png)
 
 ### Custom selection
-IMAGE OF BLOCK OPEN
 
-For accessing this section, the Custom selection button of the structures menu must be clicked.
+![](_static/edit/edit36.png)
 
-In this block, users can add a custom selection written in NGL Viewer selection language. Please visit the Selection language section of the NGL Viewer manual before starting with this section.
+For accessing this section, the **Custom selection** button of the **Structures menu** must be clicked.
 
-Note that custom selection is not compatible with manual selection, so even though the selections made in the manual selection section will not be removed, they won’t be visible in the stage. If users want to restore a previously made manual selection, just removing the custom selection will do the trick.
+In this block, users can add a custom selection written in [NGL viewer Selection Language](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [Selection language](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) section of the NGL Viewer manual **before starting** with this section.
+
+There is a mini menu at the right side of the block header:
+
+* **Show tips:** ![](_static/edit/edit38.png) opens a modal dialog with a short help for this section
+* **Show / hide block:** ![](_static/edit/edit37.png) allows to open or collapse the panel.
+
+Two actions can be performed after writing the custom selection:
+
+#### Save
+
+![](_static/edit/edit42.png)
+
+Clicking this button the **custom selection** is added to the **current representation**.
+
+#### Remove
+
+![](_static/edit/edit41.png)
+
+Clicking this button the **custom selection** is removed from the **current representation**.
+
+Note that **custom selection is not compatible with manual selection**, so even though the selections made in the manual selection section will not be removed, they won’t be visible in the stage. If users want to **restore a previously made manual selection**, just removing the custom selection will do the trick.
 
 ### Models
-IMAGE OF BLOCK OPEN
 
-If the selected structure has more than one model, this block will be enabled allowing users to switch between the different models of the structure.
+![](_static/edit/edit43.png)
+
+If the selected structure has **more than one model**, this block will be enabled allowing users to **switch between the different models** of the structure.
+
+Same heteroatom in **different models** represented in three different colors:
+
+![](_static/edit/edit44.png)
 
 There is a mini menu at the right side of the block header:
-Show tips: opens a modal dialog with a short help for this section
-Show / hide block: allows to open or collapse the panel.
 
-Note that switching between models will change the succeeding panels (i.e. if the Model 1 has two chains A and B and the Model 2 has three chains A, B and C, the Chains block will change).
+* **Show tips:** ![](_static/edit/edit38.png) opens a modal dialog with a short help for this section
+* **Show / hide block:** ![](_static/edit/edit37.png) allows to open or collapse the panel.
 
-If there is only a single model, this block menu will be disabled.
+Note that **switching between models will change the succeeding panels** (i.e. if the Model 1 has two chains A and B and the Model 2 has three chains A, B and C, the Chains block will change).
+
+If there is only a **single model**, this block menu will be disabled:
+
+![](_static/edit/edit45.png)
 
 ### Chains
-IMAGE OF BLOCK OPEN
 
-If the selected model of the current structure has more than one chain, this block will be enabled allowing users to switch between the different models of the structure.
+![](_static/edit/edit46.png)
+
+If the selected model of the current structure has **more than one chain**, this block will be enabled allowing users to **switch between the different models** of the structure.
+
+Two **different chains** represented in two different colors:
+
+![](_static/edit/edit47.png)
 
 There is a mini menu at the right side of the block header:
-Show tips: opens a modal dialog with a short help for this section
-Show / hide block: allows to open or collapse the panel.
 
-Opening the dropdown menu and passing the mouse over the chains contained on it will highlight them in the stage.
+* **Show tips:** ![](_static/edit/edit38.png) opens a modal dialog with a short help for this section
+* **Show / hide block:** ![](_static/edit/edit37.png) allows to open or collapse the panel.
 
-Note that if the structure has no chains, all the molecules will be automatically assigned to the Chain A. If the structure has one or more chains but some of its molecules have no chain, these “orphan” molecules will be assigned to a mock Chain @.
+Opening the dropdown menu and **passing the mouse** over the chains contained on it will highlight them in the stage:
 
-If there is only a single chain, this block menu will be disabled.
+![](_static/edit/edit48.png)
+
+Note that if the structure has **no chains**, all the molecules will be automatically assigned to the **Chain A**. If the structure has **one or more chains** but some of its molecules have **no chain**, these “orphan” molecules will be assigned to a **mock Chain @**.
+
+If there is only a single chain, this block menu will be disabled:
+
+![](_static/edit/edit49.png)
 
 ### Sequence
-There are two ways to perform sequence residues selection: directly through the block in the Selection panel or though the Zoom window:
+
+There are **two ways** to perform sequence residues selection: directly through **the block in the Selection panel** or though the **Zoom window**:
 
 #### Selection panel block
 
@@ -760,7 +810,7 @@ As explained in the introduction, in the backend of this web application is runn
 
 For further information about MDsrv, please visit the official website or the Nature Methods paper. 
 
-In the 1.0.0. version, only XTC and DCD formats are accepted and the maximum file size is 500MB.
+In the 1.0.0. version, only XTC, DCD, TRR, BINPOS AND NETCDF (.netcdf / .nc) formats are accepted and the maximum file size is 500MB.
 
 
 #### Player
