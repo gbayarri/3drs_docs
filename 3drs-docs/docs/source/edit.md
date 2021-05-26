@@ -51,7 +51,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 As explained in the previous section, passing the mouse over the molecules of the structure will **highlight** them and show **their information** in the **legend** on the bottom right of the stage. This legend shows information about the molecule in the next format:
 
-**Structure file name** | Model **number** | Chain **ID** | **Residue name (Residue long name) Residue number** Atom name (or Bond)
+> **Structure file name** | Model **number** | Chain **ID** | **Residue name (Residue long name) Residue number** Atom name (or Bond)
 
 ## Tools
 
@@ -79,52 +79,113 @@ Clicking this button **restores the view to the initial position** on the **stag
 
 ![](_static/edit/edit06.png)
 
-Clicking this button centers the structure(s) position on the stage.
+Clicking this button **centers** the structure(s) position on the **stage**.
 
 ### Background
 
 ![](_static/edit/edit07.png)
 
-Clicking this button opens a color picker that allows users to change the background color of the stage.
+Clicking this button opens a **color picker** that allows users to change the **background color** of the **stage**.
 
 ### Full screen
-IMAGE OF BUTTON
 
-Clicking this button opens the fullscreen mode. For exiting full screen mode, just click the button again or press the Esc key.
+![](_static/edit/edit08.png)
+
+Clicking this button opens the **fullscreen mode**. For **exiting** full screen mode, just **click the button again** or press the **Esc key**.
 
 ### Superposition
-IMAGE OF BUTTON
 
-TODO!!!!!!!!!!!!!!!!!!.
+![](_static/edit/edit09.png)
+
+3dRS allows to **superpose** multiple structures **in pairs**. Clicking the Superposition button **opens a new modal dialog** with a list of **all the structures** present in the project:
+
+![](_static/edit/edit09a.png)
+
+As an example, **3DBQ** and **1U19** are shown before superposition:
+
+![](_static/edit/edit09c.png)
+
+Users must select **two structures** and specify in [NGL viewer Selection Language](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) the **superposition area** of each structure. If Selection field is empty, **all the structure** will be taken as a superposition area.
+
+![](_static/edit/edit09b.png)
+
+After **selecting** and **clicking** the **Apply superposition button**, both structures will be superposed (in the given example, they have been superposed on the A chain):
+
+![](_static/edit/edit09d.png)
+
+Note that this button **only appears in case more than one structure** has been uploaded.
 
 ### Measurements
-IMAGE OF BUTTON
 
-Clicking this button opens a modal dialog to edit the distances and angles created by users in the stage. For remembering how to draw them, please go back to the Mouse click actions section.
+![](_static/edit/edit10.png)
+
+Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go back to the [Mouse click actions section](#mouse-click-actions).
+
+**Measurements** with size and color **by default**:
+
+![](_static/edit/edit10a.png)
+
+**Distances** before editing size and color:
+
+![](_static/edit/edit10b.png)
+
+**Distances** after editing size and color:
+
+![](_static/edit/edit10c.png)
+
+**Angles** before editing size and color:
+
+![](_static/edit/edit10d.png)
+
+**Angles** after editing size and color:
+
+![](_static/edit/edit10e.png)
+
+**Measurements** after **size and color edition**:
+
+![](_static/edit/edit10f.png)
+
+In the 1.0.0. version, distances between different structures dont work.
 
 ### Navigation mode
-IMAGE OF BUTTON
 
-TODO!!!!!!!!!!!!!!!!!!.
+![](_static/edit/edit11a.png)
+
+Sometimes it's difficult to move the stage without **accidentally selecting** a residue from it. For the sake of avoiding these problems, a **Navigation mode button** is provided. Clicking it **disables** the **selection** of molecules and the creation of **distances** and **angles**.
+
+Once the button is clicked, it turns out its background to white and the compass icon starts **spinning**:
+
+![](_static/edit/edit11b.png)
+
+During the navigation mode, the mouse pointer changes its aspect to a grabbing hand:
+
+![](_static/edit/edit11c.png)
+
+The **Navigation mode** will be enabled until users **click the button again**.
 
 ### Help
-Link  to this same Read the Docs.
+
+![](_static/edit/edit12.png)
+
+Link to this same **[Read the Docs](https://3drs-documentation.readthedocs.io/en/latest)**.
 
 ### Project settings
-IMAGE OF BUTTON
 
+![](_static/edit/edit13.png)
 
-Clicking this button opens a modal dialog to edit the project settings.
+Clicking this button **opens a modal dialog** to edit the **project settings**:
 
-IMAGE OF SETTINGS
+![](_static/edit/edit13b.png)
 
-Project title: title of the project. If this field is empty, neither title nor caption will be shown in the project once shared
-Representation caption: representative information of the project such as description, author(s), links and so on.
-Fork project when shared: if enabled, the project will be able to be forked once shared. That means that anyone can make an editable copy of the project.
-Overlay messages: there are notification messages for almost each action in the application. With this button they can be enabled / disabled. Note that although this option is enabled, the expiration notification will still appear as well as some error messages.
-Creation date: date of creation of the project.
-Expiration date: date of expiration of the project. This date will disappear once the project is shared for the first time, since then the project will be persistent.
-Representations
+* **Project title:** title of the project. If this field is empty, neither title nor caption will be shown in the project once shared
+* **Representation caption:** representative information of the project such as description, author(s), links and so on.
+* **Fork project when shared:** if enabled, the project will be able to be forked once shared. That means that anyone can make an editable copy of the project.
+* **Overlay messages:** there are notification messages for almost each action in the application. With this button they can be enabled / disabled. Note that although this option is enabled, the expiration notification will still appear as well as some error messages and the navigation mode prompt.
+* **Creation date:** date of creation of the project.
+* **Expiration date:** date of expiration of the project. This date will disappear once the project is shared for the first time, since then the project will be persistent.
+
+## Representations
+
 The Representations panel is at the bottom left of the stage and is used for changing the properties of the representation.
 
 Initially, there is a Default representation that only allows to change the opacity and hide or show it:
