@@ -186,115 +186,333 @@ Clicking this button **opens a modal dialog** to edit the **project settings**:
 
 ## Representations
 
-The Representations panel is at the bottom left of the stage and is used for changing the properties of the representation.
+The **Representations** panel is at the bottom left of the stage and is used for changing the properties of the representation.
 
-Initially, there is a Default representation that only allows to change the opacity and hide or show it:
+Initially, there is a **Default** representation that only allows to change the opacity and hide or show it:
 
-IMAGE OF DEFAULT REPRESENTATION WITH LABELS
+![](_static/edit/edit14a.png)
 
-Once users create a new representation, there are all the properties available:
+Once users create a new representation, there are **all the properties** available:
 
-IMAGE OF COMMON REPRESENTATION WITH LABELS
-Representation actions
-Below there is a description of all the actions that can be performed in this panel.
-Select representation
-IMAGE OF SELECT
+![](_static/edit/edit14b.png)
 
-In this dropdown menu, users can switch between all the representations of the project.
+### Representation actions
 
-Edit representations
-Below the select dropdown menu there is a tiny menu for making some actions over the representations:
+Below there is a description of **all the actions** that can be performed in this panel.
 
-Hide / show: hides or show the current representation selected on the dropdown above.
-Hierarchy map: shows a modal dialog with all the molecules selected in each representation. In the default representation this feature is disabled.
-IMAGE OF HIERARCHY
-Edit representation name: allows to rename the current representation. In the default representation this feature is disabled.
-Add / remove label: adds or removes a new label to the current representation. If there is more than one structure, it will show as many labels as there are structures. In the default representation this feature is disabled.
-Remove: removes the current representation and all the selections linked to it. This button must be clicked twice in order to ensure that it has not been clicked by mistake. In the default representation this feature is disabled.
+#### Select representation
 
-Representation properties
+![](_static/edit/edit15.png)
+
+In this dropdown menu, users can switch **between all the representations** of the project.
+
+#### Edit representations
+
+Below the select dropdown menu there is a tiny menu for making **some actions** over the **representations**.
+
+##### Hide / show
+
+![](_static/edit/edit16.png)
+
+**Hides** or **show** the **current representation** selected on the dropdown above.
+
+##### Hierarchy map
+
+![](_static/edit/edit17.png)
+
+Shows a **modal dialog** with all the molecules selected in **each representation**:
+
+![](_static/edit/edit17a.png)
+
+In the default representation this feature is disabled.
+
+##### Edit representation name
+
+![](_static/edit/edit18.png)
+
+Allows to **rename** the **current representation**:
+
+![](_static/edit/edit18a.png)
+
+In the default representation this feature is disabled.
+
+##### Edit label 
+
+![](_static/edit/edit19.png)
+
+Clicking this button opens the **label edition area**:
+
+![](_static/edit/edit19a.png)
+
+**By default**, all the actions are **disabled** until the label is **enabled** clicking the switch button.
+
+Once the label is enabled, it will appear in the **stage** with generic size and color and centered in the current selection. Note that the **default position** varies depending on the structure and the atoms selected. Sometimes the label can be out of the selection or in a **non-representative position**. In order to fix that, a **place label button** is provided (explained below).
+
+**Generic label** aspect:
+
+![](_static/edit/edit19b.png)
+
+In the **label edition area**, users can modify the label **name**, the label **size**, the label **background color** and the label **position**:
+
+![](_static/edit/edit19c.png)
+
+To **modify the label position**, the place label button must be clicked:
+
+![](_static/edit/edit19e.png)
+
+Once the button is clicked, it turns out its background to white and the crosshair icon starts **spinning**:
+
+![](_static/edit/edit19f.png)
+
+During this label position mode is active, the mouse pointer changes its aspect to a **crosshair**:
+
+![](_static/edit/edit19g.png)
+
+Note that during this mode, the **selection** of molecules and the creation of **distances** and **angles** are disabled. Picking a molecule only will translate the label to its position.
+
+**Edited label** aspect:
+
+![](_static/edit/edit19d.png)
+
+In the default representation this feature is disabled.
+
+##### Clone representation
+
+![](_static/edit/edit20.png)
+
+Clicking this button will **duplicate the current representation** with the same features and selection.
+
+In the default representation this feature is disabled.
+
+##### Remove
+
+![](_static/edit/edit21.png)
+
+**Removes** the **current representation and all the selections** linked to it. This button must be clicked **twice** in order to ensure that it has not been clicked by mistake. 
+
+In the default representation this feature is disabled.
+
+### Representation properties
+
 There are several properties that can be modified for each representation.
-Molecular representation
-IMAGE OF MOLECULAR REPR
 
-Each loaded structure can be displayed using a variety of molecular representations:
+#### Molecular representation
+
+![](_static/edit/edit22.png)
+
+Each loaded **structure** can be displayed using a variety of **molecular representations**:
 
 IN EACH POINT SHOW THE SAME STRUCTURE WITH THE RESPECTIVE REPR.
 
-Backbone: Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are .CA atoms in case of proteins and C4'/C3' atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
-Ball and stick: Atoms are displayed as spheres (balls) and bonds as cylinders (sticks).
-Cartoon: The main backbone atoms (see backbone) of successive residues in unbroken chains are connected by a smooth trace. The trace is expanded perpendicular to its tangent with an elliptical cross-section. The major axis points from .CA in the direction of the .O in case of proteins and from the C1'/C3' to C2'/O4' for RNA/DNA, respectively.
-If RNA/DNA an additional base representation is added: simplified display of RNA/DNA nucleotides, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (.N1 in case of adenine or guanine, .N3 in case of thymine or cytosine).
-Licorice: A variant of the ball+stick representation where balls and sticks have the same radius.
-Line: Bonds are displayed by a flat, unshaded line.
-Spacefill: Atoms are displayed as a set of space-filling spheres.
-Surface: Displays the molecular surface and its variants.
-Ribbon: A thin ribbon is displayed along the main backbone trace.
+##### Backbone
 
-Due to a shortcoming of NGL Viewer, the cartoon and ribbon representations only can show four or more consecutive residues.
+Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4'/C3'** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
 
-The Default representation can’t be edited but represents the structure in a standard way:
+![](_static/edit/edit23a.png)
+
+##### Ball and stick
+
+Atoms are displayed as spheres (balls) and bonds as cylinders (sticks).
+
+![](_static/edit/edit23b.png)
+
+##### Cartoon
+
+The main backbone atoms (see backbone) of successive residues in unbroken chains are connected by a smooth trace. The trace is expanded perpendicular to its tangent with an elliptical cross-section. The major axis points from **.CA** in the direction of the .O in case of proteins and from the **C1'/C3'** to **C2'/O4'** for RNA/DNA, respectively.
+
+If RNA/DNA an **additional base representation** is added: simplified display of RNA/DNA nucleotides, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (**.N1** in case of adenine or guanine, **.N3** in case of thymine or cytosine).
+
+![](_static/edit/edit23c.png)
+
+##### Hyperball
+
+A derivate of the [ball+stick](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
+
+![](_static/edit/edit23d.png)
+
+##### Licorice
+
+A variant of the [ball+stick](#ball-and-stick) representation where balls and sticks have the same radius.
+
+![](_static/edit/edit23e.png)
+
+##### Line
+
+Bonds are displayed by a flat, unshaded line.
+
+![](_static/edit/edit23f.png)
+
+##### Ribbon
+
+A thin ribbon is displayed along the main backbone trace.
+
+![](_static/edit/edit23g.png)
+
+##### Rope
+
+A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool](http://sbcb.bioch.ox.ac.uk/Bendix/).
+
+![](_static/edit/edit23h.png)
+
+##### Spacefill
+
+Atoms are displayed as a set of space-filling spheres.
+
+![](_static/edit/edit23i.png)
+
+##### Surface
+
+Displays the molecular surface and its variants.
+
+![](_static/edit/edit23j.png)
+
+##### Trace
+
+A flat, unshaded line is displayed along the main backbone trace.
+
+![](_static/edit/edit23k.png)
+
+##### Tube
+
+Essentially like [cartoon](#cartoon) but with the aspectRatio fixed at a value of 1.0.
+
+![](_static/edit/edit23l.png)
 
 
-Backbone: Cartoon representation.
-NA bases (if present): Base representation.
-Heteroatoms: Ball and stick representation.
-Ions: Ball and stick representation.
-Waters: Ball and stick representation.
+Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
 
-So take into account that if for example there is an heteroatom with ATOM instead of HETATM in the PDB file, it won’t be shown in this Default representation. 
-Radius
-IMAGE OF RADIUS
+The **Default** representation can’t be edited but represents the structure in a standard way:
 
-Through this slider, the radius can be modified in the next molecular representations:
+* Backbone: **Cartoon** representation.
+* NA bases (if present): **Base** representation.
+* Heteroatoms: **Ball and stick** representation.
+* Ions: **Ball and stick** representation.
+* Waters: **Ball and stick** representation.
 
-Backbone
-Ball and stick
-Licorice
-Spacefill
-Color scheme
-IMAGE OF COLOR
+![](_static/edit/edit23m.png)
 
-Each loaded structure can be displayed using a variety of color schemes:
+So take into account that if for example there is an heteroatom with **ATOM** instead of **HETATM** in the PDB file, it won’t be shown in this **Default** representation. 
 
-IN EACH POINT SHOW THE SAME STRUCTURE WITH THE RESPECTIVE COLOR
+#### Radius
 
-Atom index: color by atom index.
-B-factor: color by b-factor.
-Chain id: color by chain id.
-Chain index: color by chain index.
-Element: color by chemical element.
-Hydrophobicity: color by hydrophobicity.
-Model index: color by model index.
-Random: class by random color.
-Residue index: color by residue index.
-Residue name: color by residue name.
-Secondary structure: color by secondary structure.
-Uniform: color by uniform color selected from the color picker that appears at right of the dropdown menu when this option is selected.
+![](_static/edit/edit24.png)
 
-The colors for the Default representation are as follows:
+Through this slider, the **radius** can be modified in the next molecular representations:
+
+* Backbone
+* Ball and stick
+* Licorice
+* Spacefill
+
+#### Color scheme
+
+![](_static/edit/edit25.png)
+
+Each loaded structure can be displayed using a variety of **color schemes**:
+
+##### Atom index
+
+Color by atom index.
+
+![](_static/edit/edit25a.png)
+
+##### B-factor
+
+Color by b-factor.
+
+![](_static/edit/edit25b.png)
+
+##### Chain id
+
+Color by chain id.
+
+![](_static/edit/edit25c.png)
+
+##### Chain index
+
+Color by chain index.
+
+![](_static/edit/edit25c.png)
+
+##### Element
+
+Color by chemical element.
+
+![](_static/edit/edit25e.png)
+
+##### Hydrophobicity
+
+Color by hydrophobicity.
+
+![](_static/edit/edit25f.png)
+
+##### Model index
+
+Color by model index.
+
+![](_static/edit/edit25g.png)
+
+##### Random
+
+Class by random color.
+
+![](_static/edit/edit25h.png)
+
+##### Residue index
+
+Color by residue index.
+
+![](_static/edit/edit25i.png)
+
+##### Residue name
+
+Color by residue name.
+
+![](_static/edit/edit25j.png)
+
+##### Secondary structure
+
+Color by secondary structure.
+
+![](_static/edit/edit25k.png)
+
+##### Uniform
+
+Color by uniform color selected from the color picker that appears at right of the dropdown menu when this option is selected.
+
+![](_static/edit/edit25m.png)
+
+![](_static/edit/edit25l.png)
 
 
-Backbone: Secondary structure color scheme.
-NA bases (if present): Residue name color scheme.
-Heteroatoms: Element color scheme.
-Ions: Element color scheme.
-Waters: Element color scheme.
+The colors for the **Default** representation are as follows:
 
-Opacity
+* Backbone: **Secondary structure** color scheme.
+* NA bases (if present): **Residue name** color scheme.
+* Heteroatoms: **Element** color scheme.
+* Ions: **Element** color scheme.
+* Waters: **Element** color scheme.
 
-IMAGE OF OPACITY
+![](_static/edit/edit23m.png)
 
-Through this slider, the opacity of the representation varies. Note that due to an incompatibility of NGL Viewer, opacity in multilayer projects can generate some issues. So creating multiple representations with different degrees of opacity can give non desired outcomes.
+#### Opacity
 
-Moreover, if the opacity of a representation is less than 30 it won’t be possible to select the residues from the stage. Due to a WebGL problem, the threshold for allowing selections from stage is set to greater than 30.
-New representation
+![](_static/edit/edit26.png)
 
-In this text box, users should insert the name for creating a new representation. For the sake to clearly see all the items that can be selected in the representation, initially a line representation will be shown. But at the moment that some molecule is selected, the rest of molecules will disappear from the stage. See next section for a more detailed description of this behavior.
+Through this slider, the **opacity** of the representation varies. Note that due to an incompatibility of NGL Viewer, opacity in multilayer projects can generate some **issues**. So creating multiple representations with different degrees of opacity can give **non desired outcomes**.
 
-IMAGE OF ALL LINE REPR (NEW)
+Moreover, if the opacity of a representation is **less than 30** it won’t be possible to select the residues from the stage. Due to a WebGL problem, the threshold for allowing selections from stage is set to **greater than 30**.
 
-Selections
+### New representation
+
+![](_static/edit/edit27.png)
+
+In this text box, users should insert the name for **creating a new representation**. For the sake to clearly see all the items that can be selected in the representation, **initially a line representation will be shown** (see image below). But at the moment that some molecule is selected, the rest of molecules will **disappear** from the stage. See **[next section](#selections)** for a more detailed description of this behavior.
+
+![](_static/edit/edit23f.png)
+
+## Selections
+
 The Selections panel is at the right side of the stage and is used for applying selections to the current representation selected in the Representations panel.
 
 Note that if the current representation is the Default one, this panel will be disabled. Once users create a new representation, the Representations panel will open automatically though it can be closed clicking the open / close button.
