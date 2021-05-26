@@ -302,8 +302,6 @@ There are several properties that can be modified for each representation.
 
 Each loaded **structure** can be displayed using a variety of **molecular representations**:
 
-IN EACH POINT SHOW THE SAME STRUCTURE WITH THE RESPECTIVE REPR.
-
 ##### Backbone
 
 Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4'/C3'** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
@@ -513,27 +511,47 @@ In this text box, users should insert the name for **creating a new representati
 
 ## Selections
 
-The Selections panel is at the right side of the stage and is used for applying selections to the current representation selected in the Representations panel.
+The **Selections** panel is at the right side of the stage and is used for applying selections to the current representation selected in the **[Representations](#representations)** panel.
 
-Note that if the current representation is the Default one, this panel will be disabled. Once users create a new representation, the Representations panel will open automatically though it can be closed clicking the open / close button.
+Note that if the current representation is the **Default** one, this panel will be disabled. Once users create a new representation, the **Representations** panel will open automatically though it can be closed clicking the open / close button.
 
-When a new representation is created, all the items in the stage will be selected by default with a Line representation and Secondary structure color scheme. The meaning of this is to easily glimpse all the molecules contained in the representation. Once the first molecule (one of Sequence, Heteroatoms, Ions or Waters) is selected, this one will be the only one selected.
+When a **new representation** is created, all the items in the stage will be selected by default with a **Line** representation and **Secondary structure** color scheme. The meaning of this is to easily glimpse **all the molecules** contained in the representation. Once the **first molecule** (one of Sequence, Heteroatoms, Ions or Waters) is selected, this one will be the only one selected.
 
-IMAGE OF SELECTION PANEL WITH LABELS
-Structures
-Select structure
+The Selections panel is divided into ten parts:
+
+![](_static/edit/edit28.png)
+
+* [Open / close button](#open-close-buttton)
+* [Structures](#structures)
+* [Custom selection](#custom-selection)
+* [Models](#models)
+* [Chains](#chains)
+* [Sequence](#sequence)
+* [Heteroatoms](#heteroatoms)
+* [Ions](#ions)
+* [Waters](#waters)
+* [Trajectories](#trajectories)
+
+### Open / close button
+
+### Structures
+
+#### Select structure
 
 In this dropdown menu, users can switch between the different structures uploaded in the Launch project page.
 
 Opening the dropdown menu and passing the mouse over the structures contained on it will highlight them in the stage.
 
 If there is only a single structure, this dropdown menu will be disabled.
-Structures menu
+
+#### Structures menu
+
 Below the dropdown menu there are a couple of buttons:
 
 Center structure: centers the stage view in the currently selected structure. Note that if there is only a portion of the structure selected, the view will center around this portion.
 Custom selection / Manual selection: as explained later on, advanced users can make custom selections using NGL Viewer selection language. When custom selection is clicked, only this panel will be shown in the molecules part of the Structures panel. For coming back to the manual selection just click the same button again
-Custom selection
+
+### Custom selection
 IMAGE OF BLOCK OPEN
 
 For accessing this section, the Custom selection button of the structures menu must be clicked.
@@ -541,7 +559,8 @@ For accessing this section, the Custom selection button of the structures menu m
 In this block, users can add a custom selection written in NGL Viewer selection language. Please visit the Selection language section of the NGL Viewer manual before starting with this section.
 
 Note that custom selection is not compatible with manual selection, so even though the selections made in the manual selection section will not be removed, they won’t be visible in the stage. If users want to restore a previously made manual selection, just removing the custom selection will do the trick.
-Models
+
+### Models
 IMAGE OF BLOCK OPEN
 
 If the selected structure has more than one model, this block will be enabled allowing users to switch between the different models of the structure.
@@ -554,7 +573,7 @@ Note that switching between models will change the succeeding panels (i.e. if th
 
 If there is only a single model, this block menu will be disabled.
 
-Chains
+### Chains
 IMAGE OF BLOCK OPEN
 
 If the selected model of the current structure has more than one chain, this block will be enabled allowing users to switch between the different models of the structure.
@@ -568,9 +587,11 @@ Opening the dropdown menu and passing the mouse over the chains contained on it 
 Note that if the structure has no chains, all the molecules will be automatically assigned to the Chain A. If the structure has one or more chains but some of its molecules have no chain, these “orphan” molecules will be assigned to a mock Chain @.
 
 If there is only a single chain, this block menu will be disabled.
-Sequence
+
+### Sequence
 There are two ways to perform sequence residues selection: directly through the block in the Selection panel or though the Zoom window:
-Selection panel block
+
+#### Selection panel block
 
 IMAGE OF BLOCK OPEN
 
@@ -595,7 +616,7 @@ Note that multiple selections are only allowed between residues of the same Mode
 IMAGE OF ERROR NOTIFICATION
 
 If there are no residues in the selected structure (i.e. an heteroatom), this block menu will be disabled.
-Zoom window
+#### Zoom window
 IMAGE OF WINDOW
 
 This window shows the same information of the Sequences block but in a little more detail, adding the ability of selecting α-helices and β-sheets if they are present in the structure.
@@ -620,7 +641,8 @@ Clicking on a  α-helix or a β-sheet will unselect it from the current selectio
 Note that multiple selections are only allowed between residues of the same Model and Chain. Trying to select multiple residues from different Model and / or Chain will show an error notification:
 
 IMAGE OF ERROR NOTIFICATION
-Heteroatoms
+
+### Heteroatoms
 IMAGE OF BLOCK OPEN
 
 This block shows all the heteroatoms of the structure.
@@ -640,7 +662,8 @@ Clicking on a selected heteroatom will unselect it from the current selection.
 Clicking on the Center button of each heteroatom will do a zoom on it.
  
 If there are no heteroatoms in the selected structure, this block menu will be disabled.
-Ions
+
+### Ions
 IMAGE OF BLOCK OPEN
 
 This block shows all the ions of the structure.
@@ -660,9 +683,11 @@ Clicking on a selected ion will unselect it from the current selection.
 Clicking on the Center button of each ion will do a zoom on it.
  
 If there are no ions in the selected structure, this block menu will be disabled.
-Waters
+
+### Waters
 There are two ways to perform waters selection: directly through the block in the Selection panel or though the Zoom window:
-Selection panel block
+
+#### Selection panel block
 
 IMAGE OF BLOCK OPEN
 
@@ -688,7 +713,8 @@ Note that multiple selections are only allowed between water molecules of the sa
 IMAGE OF ERROR NOTIFICATION
 
 If there are no water molecules in the selected structure, this block menu will be disabled.
-Zoom window
+
+#### Zoom window
 IMAGE OF WINDOW
 
 This window shows the same information of the Waters block but in a little more detail.
@@ -710,11 +736,11 @@ Note that multiple selections are only allowed between residues of the same Mode
 
 IMAGE OF ERROR NOTIFICATION
 
-Trajectories
+### Trajectories
 
 Each structure can be linked to a trajectory. In this section, initially there is a button that opens a modal window for uploading this trajectory associated with the structure.
 
-Add trajectory
+#### Add trajectory
 
 This modal window allows uploading a single trajectory. Note that depending on the file size, the process can take a last. After uploading it to the server it will be processed through MDsrv.
 
@@ -725,11 +751,12 @@ For further information about MDsrv, please visit the official website or the Na
 In the 1.0.0. version, only XTC and DCD formats are accepted and the maximum file size is 500MB.
 
 
-Player
+#### Player
 IMAGE OF PLAYER
 
 Once the trajectory has been uploaded and processed in the backend, it can be played through the trajectory player. In this player, trajectories can be played, paused or played manually frame by frame.
-Settings
+
+#### Settings
 IMAGE OF BLOCK OPEN
 
 This block allows users to modify the trajectory settings.
@@ -745,23 +772,23 @@ Interpolation: type of interpolation between steps. Possible values: None, Linea
 Loop: if enabled plays the trajectory indefinitely.
 Autoplay: if enabled plays the trajectory automatically.
 
-Share
+## Share
 The Share button, located at the top right of the stage, opens a modal window for creating a shared version of the current project.
 
 IMAGE OF SHARED WINDOW
 
 In this window, users must follow three steps:
 
-Draft
+### Draft
 
 Take a look at the project Draft. This Draft is an exact copy of the Shared project so it allows users to figure how the final project will look.
 
 Note that as a draft version of the final Shared page, some of the actions are disabled in this draft page: Embed code, QR code generation and fork project. The rest of the actions are exactly the same as in the final Shared version.
 
-Fork 
+### Fork 
 Be sure to agree with the fork permissions. Note that once the project is shared, if fork is enabled, every user with the Share representation link will  be able to fork and edit it.
 
-Share
+### Share
 Finally, clicking the Share project button will generate a new read-only project with a different identifier. Once the button is pressed, three new sections will appear in the modal window.
 
 IMAGE OF SHARED WINDOW WITH NEW PROPERTIES
