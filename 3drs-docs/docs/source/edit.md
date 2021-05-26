@@ -521,7 +521,7 @@ The Selections panel is divided into ten parts:
 
 ![](_static/edit/edit28.png)
 
-* [Open / close button](#open-close-buttton)
+* [Open / close button](#open-close-button)
 * [Structures](#structures)
 * [Custom selection](#custom-selection)
 * [Models](#models)
@@ -534,15 +534,27 @@ The Selections panel is divided into ten parts:
 
 ### Open / close button
 
+![](_static/edit/edit29.png)
+
+This button, located at the left part of the **Selections** panel, allows to **open or close** it.
+
+In the default representation this feature is disabled.
+
 ### Structures
 
 #### Select structure
 
-In this dropdown menu, users can switch between the different structures uploaded in the Launch project page.
+![](_static/edit/edit30.png)
 
-Opening the dropdown menu and passing the mouse over the structures contained on it will highlight them in the stage.
+In this dropdown menu, users can switch between the different structures uploaded in the **[Launch project](launch.html)** page.
 
-If there is only a single structure, this dropdown menu will be disabled.
+Opening the dropdown menu and **passing the mouse** over the structures contained on it will **highlight** them in the stage:
+
+![](_static/edit/edit31.png)
+
+If there is only a **single structure**, this dropdown menu will be disabled:
+
+![](_static/edit/edit32.png)
 
 #### Structures menu
 
