@@ -671,11 +671,13 @@ Different actions can be performed with the residues:
 ##### Highlight
 
 Passing the **mouse over** a residue will **highlight it** on the stage:
+
 ![](_static/edit/edit51.png)
 
 ##### Selection
 
 **Clicking on a residue** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit52.png)
 
 ##### Unselection
@@ -685,19 +687,25 @@ Passing the **mouse over** a residue will **highlight it** on the stage:
 ##### Zoom
 
 **Clicking on a residue** with the mouse **left button while pressing the Alt key** will do a zoom to the residue:
+
 ![](_static/edit/edit52b.png)
 
 ##### Multiple selection
 
 For **selecting multiple residues** just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**:
+
 ![](_static/edit/edit53.png)
 
 ##### Multiple unselection
 
 For **unselecting multiple residues** is exactly the same process: just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**.
 
 Note that **multiple selections** are only **allowed** between residues of the **same Model and Chain**. Trying to select multiple residues from **different Model and / or Chain** will show an **error notification**:
