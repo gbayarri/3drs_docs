@@ -668,18 +668,35 @@ There is a mini menu at the right side of the block header:
 
 Different actions can be performed with the residues:
 
-* Passing the **mouse over** a residue will **highlight it** on the stage:
+##### Highlight
+
+Passing the **mouse over** a residue will **highlight it** on the stage:
 ![](_static/edit/edit51.png)
-* **Clicking on a residue** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### Selection
+
+**Clicking on a residue** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
 ![](_static/edit/edit52.png)
-* **Clicking on a selected residue** will unselect it from the current selection.
-* **Clicking on a residue** with the mouse **left button while pressing the Alt key** will do a zoom to the residue:
+
+##### Unselection
+
+**Clicking on a selected residue** will unselect it from the current selection.
+
+##### Zoom
+
+**Clicking on a residue** with the mouse **left button while pressing the Alt key** will do a zoom to the residue:
 ![](_static/edit/edit52b.png)
-* For **selecting multiple residues** just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+##### Multiple selection
+
+For **selecting multiple residues** just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
 ![](_static/edit/edit54.png)
 Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**:
 ![](_static/edit/edit53.png)
-* For **unselecting multiple residues** is exactly the same process: just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+##### Multiple unselection
+
+For **unselecting multiple residues** is exactly the same process: just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
 ![](_static/edit/edit54.png)
 Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**.
 
@@ -838,7 +855,7 @@ There is a mini menu at the right side of the window:
 * **Select / unselect all:** ![](_static/edit/edit59.png) allows to select or unselect all the molecules of this block with a single click.
 * **Close window:** ![](_static/edit/edit58.png) closes the window.
 
-The actions that can be performed are the same that in the** Waters block**:
+The actions that can be performed are the same that in the **Waters block**:
 
 * Passing the **mouse over** a water molecule will **highlight it** on the stage:
 ![](_static/edit/edit81.png)
