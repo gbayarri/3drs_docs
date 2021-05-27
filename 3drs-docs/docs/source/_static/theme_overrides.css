@@ -30,7 +30,7 @@ dl.simple dt { border: none!important; background: transparent!important; }
 
 .icon:before { display:none; }
 
-.rst-content blockquote { margin-left: 0; background: #b5e0dd; padding: 15px; }
+.rst-content blockquote { margin-left: 0; background: #7e8fa1; color:#fff; padding: 15px; }
 .rst-content blockquote code.literal { color: #5e738b; }
 .rst-content blockquote div p { margin-bottom:0; }
 
