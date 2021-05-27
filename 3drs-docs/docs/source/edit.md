@@ -811,23 +811,23 @@ There is a **search box** on the top of the heteroatoms list that allows users t
 
 Different actions can be performed with the heteroatoms:
 
-##### Highlight
+#### Highlight
 
 Passing the **mouse over** an heteroatom will **highlight** it in the stage:
 
 ![](_static/edit/edit66.png)
 
-##### Selection
+#### Selection
 
 **Clicking on an heteroatom** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
 
 ![](_static/edit/edit67.png)
 
-##### Unselection
+#### Unselection
 
 **Clicking on a selected heteroatom** will **unselect** it from the current selection.
 
-##### Zoom
+#### Zoom
 
 **Clicking on the Center button** ![](_static/edit/edit68b.png) of each heteroatom will do a zoom on it:
 
@@ -853,23 +853,23 @@ There is a **search box** on the top of the ions list that allows users to perfo
 
 Different actions can be performed with the ions:
 
-##### Highlight
+#### Highlight
 
 Passing the **mouse over** an ion will **highlight it** in the stage:
 
 ![](_static/edit/edit71.png)
 
-##### Selection
+#### Selection
 
 **Clicking on an ion** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
 
 ![](_static/edit/edit72.png)
 
-##### Unselection
+#### Unselection
 
 **Clicking on a selected ion** will **unselect** it from the current selection.
 
-##### Zoom
+#### Zoom
 
 **Clicking on the Center button** of each ion will do a zoom on it:
 ![](_static/edit/edit73.png)
@@ -1004,63 +1004,77 @@ Note that **multiple selections** are only **allowed** between water molecules o
 
 ### Trajectories
 
-Each structure can be linked to a trajectory. In this section, initially there is a button that opens a modal window for uploading this trajectory associated with the structure.
+Each structure can be linked to a **trajectory**. In this section, initially there is a button that opens a modal window for uploading this **trajectory** associated with the structure.
 
 #### Add trajectory
 
-This modal window allows uploading a single trajectory. Note that depending on the file size, the process can take a last. After uploading it to the server it will be processed through MDsrv.
+Clicking the button **Add trajectory** will open the modal window for uploading a trajectory:
 
-As explained in the introduction, in the backend of this web application is running MDsrv, a powerful tool for viewing and sharing molecular dynamics simulations on the web. So once a trajectory is uploaded, MDsrv processes it in order to stream it frame by frame. 
+![](_static/edit/edit85.png)
 
-For further information about MDsrv, please visit the official website or the Nature Methods paper. 
+![](_static/edit/edit86.png)
 
-In the 1.0.0. version, only XTC, DCD, TRR, BINPOS AND NETCDF (.netcdf / .nc) formats are accepted and the maximum file size is 500MB.
+This modal window allows **uploading a single trajectory**. Note that depending on the file size, **the process may take a while**. After uploading it to the server it will be processed through **MDsrv**.
 
+As explained in the introduction, in the backend of this web application is running **MDsrv**, a powerful tool for viewing and sharing **molecular dynamics simulations** on the web. So once a trajectory is uploaded, MDsrv processes it in order to **stream it frame by frame**. 
+
+For further information about **MDsrv**, please visit the [official website](https://nglviewer.org/mdsrv) or the [Nature Methods paper](https://doi.org/10.1038/nmeth.4497). 
+
+In the 1.0.0. version, only **XTC**, **DCD**, **TRR**, **BINPOS** and **NETCDF** (.netcdf / .nc) formats are accepted and the maximum file size is **500MB**.
 
 #### Player
-IMAGE OF PLAYER
 
-Once the trajectory has been uploaded and processed in the backend, it can be played through the trajectory player. In this player, trajectories can be played, paused or played manually frame by frame.
+![](_static/edit/edit87.png)
+
+Once the trajectory has been **uploaded and processed** in the backend, it can be played through the **trajectory player**. In this player, trajectories can be **played**, **paused** or played manually **frame by frame**.
 
 #### Settings
-IMAGE OF BLOCK OPEN
 
-This block allows users to modify the trajectory settings.
+![](_static/edit/edit88.png)
+
+This block allows users to modify the **trajectory settings**.
 
 There is a mini menu at the right side of the block header:
-Show tips: opens a modal dialog with a short help for this section.
-Show / hide block: allows to open or collapse the panel.
+
+* **Show tips:** ![](_static/edit/edit38.png) opens a modal dialog with a short help for this section
+* **Show / hide block:** ![](_static/edit/edit37.png) allows to open or collapse the panel.
 
 Different trajectory properties can be updated:
-Range: initially set from the first to the last frame of the trajectory, defines a range of frames with which the trajectory will be played.
-Step: defines the number of frames between playing steps.
-Interpolation: type of interpolation between steps. Possible values: None, Linear or Spline.
-Loop: if enabled plays the trajectory indefinitely.
-Autoplay: if enabled plays the trajectory automatically.
+
+* **Range:** initially set from the first to the last frame of the trajectory, defines a range of frames with which the trajectory will be played.
+* **Step:** defines the number of frames between playing steps.
+* Interpolation: type of interpolation between steps. Possible values: None, Linear or Spline.
+* **Loop:** if enabled plays the trajectory indefinitely.
+* **Autoplay:** if enabled plays the trajectory automatically.
 
 ## Share
-The Share button, located at the top right of the stage, opens a modal window for creating a shared version of the current project.
 
-IMAGE OF SHARED WINDOW
+![](_static/edit/edit90.png)
+
+The **Share button**, located at the top right of the **stage**, opens a modal window for creating a shared version of the current project.
+
+![](_static/edit/edit89.png)
 
 In this window, users must follow three steps:
 
 ### Draft
 
-Take a look at the project Draft. This Draft is an exact copy of the Shared project so it allows users to figure how the final project will look.
+Take a look at the **project Draft**. This Draft is an exact copy of the **Shared project** so it allows users to figure how the final project will look.
 
-Note that as a draft version of the final Shared page, some of the actions are disabled in this draft page: Embed code, QR code generation and fork project. The rest of the actions are exactly the same as in the final Shared version.
+Note that as a **draft version** of the final **Shared page**, some of the actions are **disabled** in this draft page: **Embed code, QR code** generation and **fork project**. The rest of the actions are **exactly the same** as in the final Shared version.
 
 ### Fork 
-Be sure to agree with the fork permissions. Note that once the project is shared, if fork is enabled, every user with the Share representation link will  be able to fork and edit it.
+
+Be sure to agree with the **fork permissions**. Note that once the project is shared, if fork is enabled, every user with the Share representation link **will be able to fork and edit it**.
 
 ### Share
-Finally, clicking the Share project button will generate a new read-only project with a different identifier. Once the button is pressed, three new sections will appear in the modal window.
 
-IMAGE OF SHARED WINDOW WITH NEW PROPERTIES
+Finally, clicking the **Share project button** will generate a new read-only project with a different identifier. Once the button is pressed, **three new sections** will appear in the modal window.
 
-A text box with the new address with a couple of buttons for copying or opening it.
-A text box with the embed code. Just copy and paste this code to a new website to embed it.
-A QR code that opens the new address.
+![](_static/edit/edit91.png)
 
-It’s very important to notice that you can share the same project as many times as you want, but once a project is shared, the subsequent updates in the current representation won't be reflected in the previous shared projects.
+* A text box with the **new address** with a couple of buttons for copying or opening it.
+* A text box with the **embed code**. Just copy and paste this code to a new website to embed it.
+* A **QR code** that opens the new address.
+
+It’s very important to notice that **you can share the same project as many times as you want**, but once a project is shared, the subsequent updates in the current representation **won't be reflected** in the previous shared projects.
