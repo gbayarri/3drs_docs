@@ -98,7 +98,9 @@ Opens a modal dialog with the **embed code**. Just copy and paste this code to a
 
 ![](_static/share/share07.png)
 
-Opens a modal dialog with the **QR code** that opens the address of the current **Shared representation**.
+Opens a modal dialog with the **QR code** that opens the address of the current **Shared representation**:
+
+![](_static/share/share13.png)
 
 ### Help
 
