@@ -729,24 +729,66 @@ There is a mini menu at the right side of the window:
 
 Different actions can be performed with the residues:
 
-* Passing the **mouse over** a residue will **highlight** it in the stage:
+##### Residue highlight
+
+Passing the **mouse over** a residue will **highlight** it in the stage:
+
 ![](_static/edit/edit60.png)
-* **Clicking on a residue** will select it in the current selection **applying to** it the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### Residue selection
+
+**Clicking on a residue** will select it in the current selection **applying to** it the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit61.png)
-* **Clicking on a selected residue** will **unselect** it from the current selection.
-* **Clicking on a residue** with the mouse **left button while pressing the Alt key** will do a zoom to the residue:
+
+##### Residue unselection
+
+**Clicking on a selected residue** will **unselect** it from the current selection.
+
+##### Residue zoom
+
+**Clicking on a residue** with the mouse **left button while pressing the Alt key** will do a zoom to the residue:
+
 ![](_static/edit/edit61b.png)
-* For **selecting multiple residues** just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+##### Multiple residue selection
+
+For **selecting multiple residues** just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png) 
+
 Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**:
+
 ![](_static/edit/edit62.png)
-* For **unselecting multiple residues** is exactly the same process: just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer. Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**.
-* Passing the **mouse over** an α-helix or a β-sheet will **highlight it** in the stage:
+
+##### Multiple residue unselection
+
+For **unselecting multiple residues** is exactly the same process: just click the first residue of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+![](_static/edit/edit54.png) 
+
+Then, click the last residue of the custom sequence again with the mouse **left button while pressing the Shift key**.
+
+##### α-helix / β-sheet highlight
+
+Passing the **mouse over** an α-helix or a β-sheet will **highlight it** in the stage:
+
 ![](_static/edit/edit63.png)
-* **Clicking on a α-helix or a β-sheet** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### α-helix / β-sheet selection
+
+**Clicking on a α-helix or a β-sheet** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit64.png)
-* **Clicking on a selected α-helix or a β-sheet** will **unselect** it from the current selection. Note that to unselect a **whole α-helix or β-sheet** all its residues must be selected.
+
+##### α-helix / β-sheet unselection
+
+**Clicking on a selected α-helix or a β-sheet** will **unselect** it from the current selection. Note that to unselect a **whole α-helix or β-sheet** all its residues must be selected.
+
+##### α-helix / β-sheet zoom
+
 * **Clicking on a α-helix or a β-sheet** with the mouse **left button while pressing the Alt key** will do a zoom to the ensemble of residues:
+
 ![](_static/edit/edit64b.png)
 
 Note that **multiple selections** are only **allowed** between residues of the **same Model and Chain**. Trying to select multiple residues from **different Model and / or Chain** will show an **error notification**:
@@ -769,12 +811,26 @@ There is a **search box** on the top of the heteroatoms list that allows users t
 
 Different actions can be performed with the heteroatoms:
 
-* Passing the **mouse over** an heteroatom will **highlight** it in the stage:
+##### Highlight
+
+Passing the **mouse over** an heteroatom will **highlight** it in the stage:
+
 ![](_static/edit/edit66.png)
-* **Clicking on an heteroatom** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### Selection
+
+**Clicking on an heteroatom** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit67.png)
-* **Clicking on a selected heteroatom** will **unselect** it from the current selection.
-* **Clicking on the Center button** ![](_static/edit/edit68b.png) of each heteroatom will do a zoom on it:
+
+##### Unselection
+
+**Clicking on a selected heteroatom** will **unselect** it from the current selection.
+
+##### Zoom
+
+**Clicking on the Center button** ![](_static/edit/edit68b.png) of each heteroatom will do a zoom on it:
+
 ![](_static/edit/edit68.png)
 
 If there are **no heteroatoms** in the selected structure, this block menu will be disabled:
@@ -797,15 +853,28 @@ There is a **search box** on the top of the ions list that allows users to perfo
 
 Different actions can be performed with the ions:
 
-* Passing the **mouse over** an ion will **highlight it** in the stage:
+##### Highlight
+
+Passing the **mouse over** an ion will **highlight it** in the stage:
+
 ![](_static/edit/edit71.png)
-* **Clicking on an ion** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### Selection
+
+**Clicking on an ion** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit72.png)
-* **Clicking on a selected ion** will **unselect** it from the current selection.
-* **Clicking on the Center button** of each ion will do a zoom on it:
+
+##### Unselection
+
+**Clicking on a selected ion** will **unselect** it from the current selection.
+
+##### Zoom
+
+**Clicking on the Center button** of each ion will do a zoom on it:
 ![](_static/edit/edit73.png)
  
-If there are no ions in the selected structure, this block menu will be disabled:
+If there are **no ions** in the selected structure, this block menu will be disabled:
 
 ![](_static/edit/edit74.png)
 
@@ -828,19 +897,44 @@ There is a mini menu at the right side of the block header:
 
 Different actions can be performed with the water molecules:
 
-* Passing the **mouse over** a water molecule will **highlight it** on the stage:
+##### Highlight
+
+Passing the **mouse over** a water molecule will **highlight it** on the stage:
+
 ![](_static/edit/edit76.png)
-* **Clicking on a water molecule** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+##### Selection
+
+**Clicking on a water molecule** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
 ![](_static/edit/edit77.png)
-* **Clicking on a selected water molecule** will **unselect** it from the current selection.
-* **Clicking on a water molecule** with the mouse **left button while pressing the Alt key** will do a zoom to the water molecule:
+
+##### Unselection
+
+**Clicking on a selected water molecule** will **unselect** it from the current selection.
+
+##### Zoom
+
+**Clicking on a water molecule** with the mouse **left button while pressing the Alt key** will do a zoom to the water molecule:
+
 ![](_static/edit/edit79.png)
-* For **selecting multiple water molecules** just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+##### Multiple selection
+
+For **selecting multiple water molecules** just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last water molecule of the custom sequence again with the mouse **left button while pressing the Shift key**:
+
 ![](_static/edit/edit78.png)
-* For **unselecting multiple water molecules** is exactly the same process: just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+##### Multiple unselection
+
+For **unselecting multiple water molecules** is exactly the same process: just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last water molecule of the custom sequence again with the mouse **left button while pressing the Shift key**.
 
 Note that **multiple selections** are only **allowed** between water molecules of the **same Model and Chain**. Trying to select multiple water molecules from **different Model and / or Chain** will show an **error notification**:
@@ -859,25 +953,49 @@ This window shows the same information of the [**Waters block**](#id2) but in a 
 
 There is a mini menu at the right side of the window:
 
-
 * **Select / unselect all:** ![](_static/edit/edit59.png) allows to select or unselect all the molecules of this block with a single click.
 * **Close window:** ![](_static/edit/edit58.png) closes the window.
 
 The actions that can be performed are the same that in the **Waters block**:
 
-* Passing the **mouse over** a water molecule will **highlight it** on the stage:
-![](_static/edit/edit81.png)
-* **Clicking on a water molecule** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
-![](_static/edit/edit82.png)
-* **Clicking on a selected water molecule** will **unselect** it from the current selection.
-* **Clicking on a water molecule** with the mouse **left button while pressing the Alt key** will do a zoom to the water molecule:
-![](_static/edit/edit83.png)
-* For **selecting multiple water molecules** just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+##### Highlight
+
+Passing the **mouse over** a water molecule will **highlight it** on the stage:
+
+![](_static/edit/edit76.png)
+
+##### Selection
+
+**Clicking on a water molecule** will select it in the current selection **applying to it** the molecular representation, radius, color scheme and opacity selected in the representations panel for the **current representation**:
+
+![](_static/edit/edit77.png)
+
+##### Unselection
+
+**Clicking on a selected water molecule** will **unselect** it from the current selection.
+
+##### Zoom
+
+**Clicking on a water molecule** with the mouse **left button while pressing the Alt key** will do a zoom to the water molecule:
+
+![](_static/edit/edit79.png)
+
+##### Multiple selection
+
+For **selecting multiple water molecules** just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last water molecule of the custom sequence again with the mouse **left button while pressing the Shift key**:
-![](_static/edit/edit84.png)
-* For **unselecting multiple water molecules** is exactly the same process: just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
+![](_static/edit/edit78.png)
+
+##### Multiple unselection
+
+For **unselecting multiple water molecules** is exactly the same process: just click the first water molecule of the custom sequence with the mouse **left button while pressing the Shift key**. A small cross will be shown next to the mouse pointer:
+
 ![](_static/edit/edit54.png)
+
 Then, click the last water molecule of the custom sequence again with the mouse **left button while pressing the Shift key**.
 
 Note that **multiple selections** are only **allowed** between water molecules of the **same Model and Chain**. Trying to select multiple water molecules from **different Model and / or Chain** will show an **error notification**:
