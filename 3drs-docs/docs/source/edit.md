@@ -66,6 +66,7 @@ The tools menu is at the top left of the **stage** and allows users to make some
 * **[Superposition](#superposition)**
 * **[Measurements](#measurements)**
 * **[Navigation mode](#navigation-mode)**
+* **[Camera type](#camera-type)**
 * **[Help](#help)**
 * **[Project settings](#project-settings)**
 
@@ -162,6 +163,12 @@ During the navigation mode, the mouse pointer changes its aspect to a grabbing h
 ![](_static/edit/edit11c.png)
 
 The **Navigation mode** will be enabled until users **click the button again**.
+
+### Camera type
+
+![](_static/edit/edit12z.png)
+
+Switches camera type between **orthographic** and **perspective**.
 
 ### Help
 
@@ -1041,11 +1048,13 @@ There is a mini menu at the right side of the block header:
 
 Different trajectory properties can be updated:
 
-* **Range:** initially set from the first to the last frame of the trajectory, defines a range of frames with which the trajectory will be played.
+* **Range:** initially set from the first to the last frame of the trajectory, defines a **range of frames** with which the trajectory will be played.
 * **Step:** defines the number of frames between playing steps.
-* Interpolation: type of interpolation between steps. Possible values: None, Linear or Spline.
+* **Interpolation:** type of interpolation between steps. Possible values: None, Linear or Spline.
+* **Timeout:** timeout between playing frames. Actually this slider is in a logarithmic scale from **50** to **10000**, but it has been set from 0 to 100 for the sake of simplicity.
 * **Loop:** if enabled plays the trajectory indefinitely.
 * **Autoplay:** if enabled plays the trajectory automatically.
+* **Bounce:** if enabled plays in rock / bounce mode (back and forth).
 
 ## Share
 
