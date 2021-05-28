@@ -1051,7 +1051,7 @@ Different trajectory properties can be updated:
 * **Range:** initially set from the first to the last frame of the trajectory, defines a **range of frames** with which the trajectory will be played.
 * **Step:** defines the number of frames between playing steps.
 * **Interpolation:** type of interpolation between steps. Possible values: None, Linear or Spline.
-* **Timeout:** timeout between playing frames. Actually this slider is in a logarithmic scale from **50** to **10000**, but it has been set from 0 to 100 for the sake of simplicity.
+* **Timeout:** timeout between playing frames. Actually this slider is in a logarithmic scale from **50** to **10000** milliseconds, but it has been set from 0 to 100 for the sake of simplicity.
 * **Loop:** if enabled plays the trajectory indefinitely.
 * **Autoplay:** if enabled plays the trajectory automatically.
 * **Bounce:** if enabled plays in rock / bounce mode (back and forth).

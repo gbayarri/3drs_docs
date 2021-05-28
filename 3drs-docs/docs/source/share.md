@@ -131,3 +131,5 @@ If **no caption** is added, only the **project title** will be shown, if it’s 
 ![](_static/share/share12.png)
 
 If fork has been enabled in the **[Project Settings](edit.html#project-settings)** modal window or in the **[Share](edit.html#fork)** modal window, this button will appear in the top right of the stage. Clicking on it creates a new **Edit representation** page that allows editing **all the representations and selections** present in the current **Shared project**. Once the new page is created, users will be automatically redirected to it.
+
+Be aware that **some browsers block the opening of new tabs**, so in this case, users sould manually allow this browser feature.
