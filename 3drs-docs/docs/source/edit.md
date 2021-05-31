@@ -185,8 +185,9 @@ Clicking this button **opens a modal dialog** to edit the **project settings**:
 ![](_static/edit/edit13b.png)
 
 * **Project title:** title of the project. If this field is empty, neither title nor caption will be shown in the project once shared
-* **Representation caption:** representative information of the project such as description, author(s), links and so on.
+* **Representation caption:** representative information of the project such as description, author(s), links and so on. Beware of copying **formatted text**, it can give problems. It's strongly reccomended to paste text without formatting (via **Ctrl+Shift+V** or **Tx** button).
 * **Fork project when shared:** if enabled, the project will be able to be forked once shared. That means that anyone can make an editable copy of the project.
+* **Make project public:** if enabled, the project will be shown in the home page list along with the rest of latest public projects.
 * **Overlay messages:** there are notification messages for almost each action in the application. With this button they can be enabled / disabled. Note that although this option is enabled, the expiration notification will still appear as well as some error messages and the navigation mode prompt.
 * **Creation date:** date of creation of the project.
 * **Expiration date:** date of expiration of the project. This date will disappear once the project is shared for the first time, since then the project will be persistent.
@@ -1064,7 +1065,7 @@ The **Share button**, located at the top right of the **stage**, opens a modal w
 
 ![](_static/edit/edit89.png)
 
-In this window, users must follow three steps:
+In this window, users must follow four steps:
 
 ### Draft
 
@@ -1075,6 +1076,10 @@ Note that as a **draft version** of the final **Shared page**, some of the actio
 ### Fork 
 
 Be sure to agree with the **fork permissions**. Note that once the project is shared, if fork is enabled, every user with the Share representation link **will be able to fork and edit it**.
+
+### Public 
+
+Be sure to agree with the **public permissions**. Note that once the project is shared, if public is enabled, the shared project will be available from the Last projects list in the home page.
 
 ### Share
 
