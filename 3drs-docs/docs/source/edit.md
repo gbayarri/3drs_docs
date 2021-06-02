@@ -1034,7 +1034,7 @@ In the 1.0.0. version, only **XTC**, **DCD**, **TRR**, **BINPOS** and **NETCDF**
 
 ![](_static/edit/edit87.png)
 
-Once the trajectory has been **uploaded and processed** in the backend, it can be played through the **trajectory player**. In this player, trajectories can be **played**, **paused** or played manually **frame by frame**.
+Once the trajectory has been **uploaded and processed** in the backend, it can be played through the **trajectory player**. In this player, trajectories can be **played**, **paused** or played manually either **frame by frame** or **dragging the slider**.
 
 #### Settings
 

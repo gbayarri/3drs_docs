@@ -2,7 +2,7 @@
 
 Once the project is shared, a new **Share representation** will be created. This is a new address different from the **Edit representation** one. This page **doesn’t expire** and we could say that it is a “read-only” version of the **Edit representation** page. That means that though it is an interactive page, the changes such as zoom or rotation are not saved.
 
-This **Share representation page** can be splitted into four parts:
+This **Share representation page** can be splitted into five parts:
 
 ![](_static/share/share01.png)
 
@@ -80,13 +80,17 @@ Clicking this button opens the **fullscreen mode**. For **exiting** full screen 
 
 ![](_static/share/share04.png)
 
-Clicking this button **takes a picture** of the **stage**. Depending on the zoom and the amount of molecules of the representation, **it can take a few seconds**. Note that if there are **representation labels** present, they will not be shown in the picture.
+Clicking this button **takes a picture** of the **stage**. Depending on the zoom and the amount of molecules of the representation, **it can take a few seconds**. In order to get a **good resolution**, **the stage will move** during the process of taking the picture, though it will return to its **normal status** once this process is finished.
+
+Note that if there are **representation labels** present, they will not be shown in the picture.
 
 ### Player
 
 ![](_static/share/share05.png)
 
-Only shown if there are **trajectories** present in the representation, allows to **play / pause** them.
+Only shown if there are **multiple trajectories** present in the representation, allows to **play / pause** them.
+
+In case there is only one trajectory, it will be controlled through the **[Player panel](#id2)**.
 
 ### Embed
 
@@ -125,6 +129,16 @@ If **no title** is added, the **Caption won’t be shown**.
 If **no caption** is added, only the **project title** will be shown, if it’s added, a ![](_static/share/share11.png) **button** appears and allows **displaying the Caption**:
 
 ![](_static/share/share10.png)
+
+## Player
+
+![](_static/share/share14.png)
+
+The **Player** panel is at the top of the stage and allows to control the **trajectory**. In this **player**, trajectories can be **played**, **paused** or played manually either **frame by frame** or **dragging the slider**.
+
+If **no trajectory** is added, the **Player won’t be shown**.
+
+In the other hand, if **more than one trajectory** is provided (in case there is more than one structure), this player **won't appear** and the control of **all the trajectories** will be performed through the Tools **[Player](#player)** button.
 
 ## Fork
 
