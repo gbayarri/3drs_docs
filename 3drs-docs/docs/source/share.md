@@ -90,7 +90,7 @@ Note that if there are **representation labels** present, they will not be shown
 
 Only shown if there are **multiple trajectories** present in the representation, allows to **play / pause** them.
 
-In case there is only one trajectory, it will be controlled through the **[Player panel](#id2)**.
+In case there is only one trajectory, it will be controlled through the **[Player panel](#id1)**.
 
 ### Embed
 
