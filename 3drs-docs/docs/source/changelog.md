@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0
+
+09/06/2021 - [v1.0.0](https://github.com/gbayarri/3drs_client/releases/tag/v1.0.0)
+
+### First release
+
 ## 0.6.1
 
 29/05/2021 - [Beta v0.6.1](https://github.com/gbayarri/3drs_client/releases/tag/v0.6.1)
