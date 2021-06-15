@@ -16,4 +16,4 @@ Custom structures can be uploaded from this tab just **clicking** the **Select b
 
 Note that these custom structures **will be stored in our database** for the sake of sharing the representation later.
 
-In the 1.0.0. version, only **PDB** and **GRO** formats are accepted and the maximum file size is **50MB**.
+In the current version, only **PDB** and **GRO** formats are accepted and the maximum file size is **50MB**.

@@ -2,7 +2,7 @@
 
 Once the structure or structures are uploaded, users will be redirected to the **Edit representation page**. This page loads the structure(s) and shows a notification warning that the project will expire unless it’s shared. That means that users have **until the date shown** in the notification for editing and sharing a project. In case of not sharing it after this period of time, all the files and data related to the project will be **removed** from our database.
 
-In the 1.0.0. version, the expiration time is **20 days**.
+In the current version, the expiration time is **20 days**.
 
 Following the philosophy of the project, this **Edit representation page** is open, but protected so that only user(s) with this URL address can access it.
 
@@ -146,7 +146,7 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 
 ![](_static/edit/edit10f.png)
 
-In the 1.0.0. version, distances between different structures dont work.
+In the current version, distances between different structures dont work.
 
 ### Navigation mode
 
@@ -1028,7 +1028,7 @@ As explained in the introduction, in the backend of this web application is runn
 
 For further information about **MDsrv**, please visit the [official website](https://nglviewer.org/mdsrv) or the [Nature Methods paper](https://doi.org/10.1038/nmeth.4497). 
 
-In the 1.0.0. version, only **XTC**, **DCD**, **TRR**, **BINPOS** and **NETCDF** (.netcdf / .nc) formats are accepted and the maximum file size is **500MB**.
+In the current version, only **XTC**, **DCD**, **TRR**, **BINPOS** and **NETCDF** (.netcdf / .nc) formats are accepted and the maximum file size is **500MB**.
 
 #### Player
 

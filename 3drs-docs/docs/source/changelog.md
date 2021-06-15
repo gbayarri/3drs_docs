@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1
+
+15/06/2021 - [v1.0.1](https://github.com/gbayarri/3drs_client/releases/tag/v1.0.1)
+
+### First stable release
+
+* New gallery items
+* UX bug fixes
+* Allowing to disable labels in measurements
+
+
 ## 1.0.0
 
 09/06/2021 - [v1.0.0](https://github.com/gbayarri/3drs_client/releases/tag/v1.0.0)

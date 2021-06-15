@@ -15,7 +15,7 @@ For the sake of simplicity and to **improve the user experience** of the users, 
 **3dRS** has been built on top of **NGL Viewer** (a collection of tools for web-based molecular graphics that uses **WebGL** to display molecules like proteins and DNA/RNA with a variety of representations). **MDsrv** (a Molecular Dynamics streaming web server) has been used as well for **representing the trajectories**.
 
 ## Version
-v1.0.0
+v1.0.1
 
 ## Documentation & help
 
