@@ -130,9 +130,12 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 
 ![](_static/edit/edit10b.png)
 
+
 **Distances** after editing size and color:
 
 ![](_static/edit/edit10c.png)
+
+If **only a distance** is needed (**without label**), please set **0 as Label size**.  
 
 **Angles** before editing size and color:
 
@@ -141,6 +144,8 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 **Angles** after editing size and color:
 
 ![](_static/edit/edit10e.png)
+
+If **only the lines** are needed (**without label**), please set **0 as Label size**. 
 
 **Measurements** after **size and color edition**:
 
