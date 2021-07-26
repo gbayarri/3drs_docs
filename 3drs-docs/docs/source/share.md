@@ -104,7 +104,10 @@ Below you can find an example of an embed code:
 <iframe width="500" height="500" src="https://mmb.irbbarcelona.org/3dRS/embed/60c1ff158a6696.79962296" title="3dRS" frameborder="0" allowfullscreen></iframe>
 ```
 
+And how it looks embedded in a HTML page:
+
 <iframe width="500" height="500" src="https://mmb.irbbarcelona.org/3dRS/embed/60c1ff158a6696.79962296" title="3dRS" frameborder="0" allowfullscreen></iframe>
+ 
  
 ### QR code
 
