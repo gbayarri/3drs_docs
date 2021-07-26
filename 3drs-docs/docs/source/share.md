@@ -97,6 +97,14 @@ In case there is only one trajectory, it will be controlled through the **[Playe
 ![](_static/share/share06.png)
 
 Opens a modal dialog with the **embed code**. Just copy and paste this code to a new website to embed it. 
+
+Below you can find an example of an embed code:
+
+```html
+<iframe width="500" height="500" src="https://mmb.irbbarcelona.org/3dRS/embed/60c1ff158a6696.79962296" title="3dRS" frameborder="0" allowfullscreen></iframe>
+```
+
+<iframe width="500" height="500" src="https://mmb.irbbarcelona.org/3dRS/embed/60c1ff158a6696.79962296" title="3dRS" frameborder="0" allowfullscreen></iframe>
  
 ### QR code
 
