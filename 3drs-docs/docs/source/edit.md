@@ -412,6 +412,7 @@ Through this slider, the **radius** can be modified in the next molecular repres
 
 * Backbone
 * Ball and stick
+* Cartoon
 * Licorice
 * Spacefill
 
@@ -599,6 +600,22 @@ There is a mini menu at the right side of the block header:
 
 * **Show tips:** ![](_static/edit/edit38.png) opens a modal dialog with a short help for this section
 * **Show / hide block:** ![](_static/edit/edit37.png) allows to open or collapse the panel.
+
+#### Distance-based selection
+
+If enabled, a selection of atoms that are within a certain distance of the selection will be given instead of the selection itself.
+
+![](_static/edit/edit36b.png)
+
+After enabling this option, two new parameters are shown:
+
+##### Distance
+
+Distance from selection in Ångstroms.
+
+##### Whole residue(s)
+
+Whether to select or not the whole residue from the selected atoms.
 
 Two actions can be performed after writing the custom selection:
 
