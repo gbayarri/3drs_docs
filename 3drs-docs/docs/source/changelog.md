@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1
+
+15/11/2021 - [v1.1.1](https://github.com/gbayarri/3drs_client/releases/tag/v1.1.1)
+
+* Added link to [**publication**](https://doi.org/10.3389/fmolb.2021.726232)
+* Bug fix in trajectories
+
 ## 1.1.0
 
 30/07/2021 - [v1.1.0](https://github.com/gbayarri/3drs_client/releases/tag/v1.1.0)
