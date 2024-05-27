@@ -46,7 +46,7 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-8608-3278"
       email: "modesto.orozco@irbbarcelona.org"
   title: "3dRS, a Web-Based Tool to Share Interactive Representations of 3D Biomolecular Structures and Molecular Dynamics Trajectories"
-  type: article
+  type: "article"
   doi: "10.3389/fmolb.2021.726232"
   journal: "Frontiers in Molecular Biosciences"
   month: 8
