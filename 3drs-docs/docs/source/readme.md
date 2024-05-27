@@ -4,7 +4,7 @@
 
 # 3dRS documentation
 
-<a href="https://mmb.irbbarcelona.org/3dRS"><img src="3drs-docs/docs/source/_static/logo.png" alt="3dRS" width="200"/></a>
+<a href="https://mmb.irbbarcelona.org/3dRS"><img src="_static/logo.png" alt="3dRS" width="200"/></a>
 
 ## Brief description
 
